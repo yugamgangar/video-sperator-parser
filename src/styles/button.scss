@@ -1,0 +1,20 @@
+button {
+    padding: 15px 25px;
+    background-color: #e91e63;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    pointer-events: all;
+    height: fit-content;
+
+    &:disabled {
+        background-color: grey;
+        cursor: not-allowed;
+        color: #000;
+        pointer-events: none;
+    }
+}

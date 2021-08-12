@@ -1,0 +1,49 @@
+.dropdown-wrapper {
+    margin-bottom: 7px;
+    position: relative;
+    padding-top: 20px;
+}
+
+select {
+    height: 35px;
+    min-width: 120px;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border: none;
+    border-bottom: solid 1px #000;
+
+    &:active,
+    &:focus {
+        outline: none;
+        border-color: #e91e63;
+    }
+}
+
+option {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    height: 30px;
+    font-size: 16px;
+}
+
+select:focus + label,
+select:active + label {
+    color: #e91e63;
+}
+
+label {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 7px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    cursor: text;
+}
+
+.error-message {
+    font-size: 14px;
+    color: #ff1100;
+}
